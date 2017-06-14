@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="10" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="215176" started-at="2017-06-14T17:10:32Z" finished-at="2017-06-14T17:14:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="215176" started-at="2017-06-14T17:10:32Z" finished-at="2017-06-14T17:14:07Z">
+      <class name="testCases.TC006_EditLead">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testCases.TC006_EditLead@135b478]" name="setValues" is-config="true" duration-ms="1" started-at="2017-06-14T22:41:50Z" finished-at="2017-06-14T22:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC006_EditLead@135b478]" name="beforeMethod" is-config="true" duration-ms="11091" started-at="2017-06-14T22:41:50Z" finished-at="2017-06-14T22:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="editLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC006_EditLead@135b478]" name="editLead" duration-ms="28247" started-at="2017-06-14T22:42:01Z" data-provider="fetchData" finished-at="2017-06-14T22:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC006_EditLead@135b478]" name="afterMethod" is-config="true" duration-ms="1421" started-at="2017-06-14T22:42:29Z" finished-at="2017-06-14T22:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC006_EditLead@135b478]" name="beforeMethod" is-config="true" duration-ms="8732" started-at="2017-06-14T22:42:31Z" finished-at="2017-06-14T22:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="editLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC006_EditLead@135b478]" name="editLead" duration-ms="17053" started-at="2017-06-14T22:42:39Z" data-provider="fetchData" finished-at="2017-06-14T22:42:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gopi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qeagle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC006_EditLead@135b478]" name="afterMethod" is-config="true" duration-ms="772" started-at="2017-06-14T22:42:56Z" finished-at="2017-06-14T22:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TC006_EditLead -->
+      <class name="testCases.TC007_MergeLeads">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testCases.TC007_MergeLeads@9f9fb0]" name="setValues" is-config="true" duration-ms="0" started-at="2017-06-14T22:42:20Z" finished-at="2017-06-14T22:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC007_MergeLeads@9f9fb0]" name="beforeMethod" is-config="true" duration-ms="12087" started-at="2017-06-14T22:42:21Z" finished-at="2017-06-14T22:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="MergeLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC007_MergeLeads@9f9fb0]" name="MergeLead" duration-ms="46866" started-at="2017-06-14T22:42:33Z" data-provider="fetchData" finished-at="2017-06-14T22:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mohan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Arjun]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:31)
+	at wrappers.GenericWrappers.getTextByXpath(GenericWrappers.java:443)
+	at pages.FindLeadWin.getLeadID(FindLeadWin.java:34)
+	at testCases.TC007_MergeLeads.MergeLead(TC007_MergeLeads.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergeLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC007_MergeLeads@9f9fb0]" name="afterMethod" is-config="true" duration-ms="860" started-at="2017-06-14T22:43:20Z" finished-at="2017-06-14T22:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC007_MergeLeads@9f9fb0]" name="beforeMethod" is-config="true" duration-ms="5076" started-at="2017-06-14T22:43:21Z" finished-at="2017-06-14T22:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="MergeLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC007_MergeLeads@9f9fb0]" name="MergeLead" duration-ms="39941" started-at="2017-06-14T22:43:26Z" data-provider="fetchData" finished-at="2017-06-14T22:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mohan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Arjun]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:31)
+	at wrappers.GenericWrappers.getTextByXpath(GenericWrappers.java:443)
+	at pages.FindLeadWin.getLeadID(FindLeadWin.java:34)
+	at testCases.TC007_MergeLeads.MergeLead(TC007_MergeLeads.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergeLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC007_MergeLeads@9f9fb0]" name="afterMethod" is-config="true" duration-ms="964" started-at="2017-06-14T22:44:06Z" finished-at="2017-06-14T22:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TC007_MergeLeads -->
+      <class name="testCases.TC003_CreateLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="beforeSuite" is-config="true" duration-ms="1823" started-at="2017-06-14T22:40:30Z" finished-at="2017-06-14T22:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="beforeTest" is-config="true" duration-ms="10" started-at="2017-06-14T22:40:32Z" finished-at="2017-06-14T22:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="setValues" is-config="true" duration-ms="0" started-at="2017-06-14T22:40:32Z" finished-at="2017-06-14T22:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="beforeMethod" is-config="true" duration-ms="20000" started-at="2017-06-14T22:40:34Z" finished-at="2017-06-14T22:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="createLead" duration-ms="29059" started-at="2017-06-14T22:40:54Z" data-provider="fetchData" finished-at="2017-06-14T22:41:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="afterMethod" is-config="true" duration-ms="5504" started-at="2017-06-14T22:41:23Z" finished-at="2017-06-14T22:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="beforeMethod" is-config="true" duration-ms="7949" started-at="2017-06-14T22:41:28Z" finished-at="2017-06-14T22:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="createLead" duration-ms="12759" started-at="2017-06-14T22:41:36Z" data-provider="fetchData" finished-at="2017-06-14T22:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gopi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[J]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qeagle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="afterMethod" is-config="true" duration-ms="878" started-at="2017-06-14T22:41:49Z" finished-at="2017-06-14T22:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-14T22:44:07Z" finished-at="2017-06-14T22:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TC003_CreateLead@1551a94]" name="afterSuite" is-config="true" duration-ms="1070" started-at="2017-06-14T22:44:08Z" finished-at="2017-06-14T22:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.TC003_CreateLead -->
+      <class name="testCases.TC005_DuplicateLead">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testCases.TC005_DuplicateLead@af6cff]" name="setValues" is-config="true" duration-ms="0" started-at="2017-06-14T22:40:32Z" finished-at="2017-06-14T22:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC005_DuplicateLead@af6cff]" name="beforeMethod" is-config="true" duration-ms="20000" started-at="2017-06-14T22:40:34Z" finished-at="2017-06-14T22:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="duplicateLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC005_DuplicateLead@af6cff]" name="duplicateLead" duration-ms="54793" started-at="2017-06-14T22:40:54Z" data-provider="fetchData" finished-at="2017-06-14T22:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[welcome@praveen.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:31)
+	at wrappers.GenericWrappers.getTextByXpath(GenericWrappers.java:443)
+	at pages.FindLead.getName(FindLead.java:38)
+	at testCases.TC005_DuplicateLead.duplicateLead(TC005_DuplicateLead.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC005_DuplicateLead@af6cff]" name="afterMethod" is-config="true" duration-ms="962" started-at="2017-06-14T22:41:48Z" finished-at="2017-06-14T22:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC005_DuplicateLead@af6cff]" name="beforeMethod" is-config="true" duration-ms="11250" started-at="2017-06-14T22:41:49Z" finished-at="2017-06-14T22:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="duplicateLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC005_DuplicateLead@af6cff]" name="duplicateLead" duration-ms="48109" started-at="2017-06-14T22:42:01Z" data-provider="fetchData" finished-at="2017-06-14T22:42:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[welcome@praveen.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:31)
+	at wrappers.GenericWrappers.getTextByXpath(GenericWrappers.java:443)
+	at pages.FindLead.getName(FindLead.java:38)
+	at testCases.TC005_DuplicateLead.duplicateLead(TC005_DuplicateLead.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC005_DuplicateLead@af6cff]" name="afterMethod" is-config="true" duration-ms="1025" started-at="2017-06-14T22:42:49Z" finished-at="2017-06-14T22:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TC005_DuplicateLead -->
+      <class name="testCases.TC004_DeleteLead">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testCases.TC004_DeleteLead@11be3c5]" name="setValues" is-config="true" duration-ms="0" started-at="2017-06-14T22:40:32Z" finished-at="2017-06-14T22:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC004_DeleteLead@11be3c5]" name="beforeMethod" is-config="true" duration-ms="20000" started-at="2017-06-14T22:40:34Z" finished-at="2017-06-14T22:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DeleteLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC004_DeleteLead@11be3c5]" name="DeleteLead" duration-ms="34558" started-at="2017-06-14T22:40:54Z" data-provider="fetchData" finished-at="2017-06-14T22:41:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC004_DeleteLead@11be3c5]" name="afterMethod" is-config="true" duration-ms="1047" started-at="2017-06-14T22:41:28Z" finished-at="2017-06-14T22:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC004_DeleteLead@11be3c5]" name="beforeMethod" is-config="true" duration-ms="7162" started-at="2017-06-14T22:41:29Z" finished-at="2017-06-14T22:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DeleteLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC004_DeleteLead@11be3c5]" name="DeleteLead" duration-ms="41529" started-at="2017-06-14T22:41:36Z" data-provider="fetchData" finished-at="2017-06-14T22:42:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC004_DeleteLead@11be3c5]" name="afterMethod" is-config="true" duration-ms="2301" started-at="2017-06-14T22:42:18Z" finished-at="2017-06-14T22:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TC004_DeleteLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
